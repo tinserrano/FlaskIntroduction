@@ -5,9 +5,14 @@
 {% endblock %}
 
 {% block body %}
+
+<div class="tab">
+    <img class="img" src="static/svg/tasks.png">
+</div>
+
+
 <div class="content">
     <h1 style="text-align: center">Task Master2</h1>
-    <img src="static/svg/tasks.png" class="image" align-content: center>
     {% if tasks|length < 1 %}
         
     
@@ -41,4 +46,7 @@
         </form>
     </div>
 </div>
+<footer class="footer">
+Made with ❤️ in ⛰️ of Argentina 
+</footer>
 {% endblock %}
